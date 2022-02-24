@@ -52,4 +52,4 @@ def main(st_path):
 
 if __name__ == '__main__':
     storage_path = os.path.join(tempfile.gettempdir(), 'storage.data')
-    main(storage_path)
+    main(st_path)
